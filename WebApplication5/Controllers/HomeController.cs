@@ -26,5 +26,12 @@ namespace WebApplication5.Controllers
 
             return View();
         }
+
+        public ActionResult Hello()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
